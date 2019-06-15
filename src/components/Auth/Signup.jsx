@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import Nav from "../Containers/Nav";
-import logo from "../../assets/images/logo.png";
 
 class Signup extends Component {
   render() {
