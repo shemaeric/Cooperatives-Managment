@@ -10,11 +10,11 @@ import {
 export default function NavBar({text1, text2}) {
   return (
     <Navbar light expand="md" className="navbar">
-          <NavbarBrand color= "black">Cooperative</NavbarBrand>
+          <NavbarBrand className="btn btn-outline-primary font-weight-bolder pl-4 text-uppercase">Cooperative</NavbarBrand>
             <Nav className="ml-auto" navbar>
-                <button className="signup-btn">{text1}</button>
+                <button className="btn btn-success signup-btn">{text1}</button>
               <NavItem>
-                <button className="login-btn">{text2}</button>
+                <button className="btn btn-outline-primary login-btn">{text2}</button>
               </NavItem>
             </Nav>
         </Navbar>

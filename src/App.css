@@ -64,25 +64,16 @@ html, body {
 }
 
 .signup-btn {
-  background: var(--mainBlue);
-  color: #fff;
-  border: 0.15rem #2161aa solid;
-  border-radius: 15px;
   margin-right: 1.2rem;
   margin-bottom: 0.2rem;
-  width: 6rem;
 }
-
 .signup-btn:hover{
   background: var(--mainWhite);
   color: var(--mainDark);
 }
 
 .login-btn {
-  background: var(--lightBlue);
-  border: 0.15rem #9aadc2 solid;
-  border-radius: 15px;
-  width: 6rem;
+  margin-right: 3em;
 }
 
 .login-btn:hover{
@@ -120,7 +111,6 @@ html, body {
 
 .top-head {
   font-family: 'Courier New', Courier, monospace;
-  background: var(--mainBlue);
   color: var(--mainWhite);
 }
 
@@ -137,14 +127,14 @@ html, body {
   font-size: 1.6rem;
   width: 10%;
 }
-.side-par {
+/* .side-par {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.1rem;
   margin-left: 3rem;
   background: rgba(238, 233, 233, 0.938);
   width: 72%;
   text-align: center;
-}
+} */
 
 .bottom {
   margin-top: 14.5rem;
